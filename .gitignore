@@ -1,0 +1,24 @@
+# Byte-code & venv
+__pycache__/
+.venv/
+*.py[cod]
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Editor junk
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Terraform & secrets
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Lockfiles generated today
+requirements.lock
